@@ -61,7 +61,7 @@ public class IlabChrome {
 
 	// Populate data from the web form
 	public void capturInfo() {
-		String pathToLogin = "C:\\Users\\mlungisi.ntshingila\\eclipse-workspace\\VPC_BO\\Data\\Infodata.csv";
+		String pathToLogin = "C:\\Users\\mlungisi.ntshingila\\eclipse-workspace\\VPC_BO\\Data\\datafile.csv";
 		String name = ReadDataFromCSV("NAME", pathToLogin);
 		String email = ReadDataFromCSV("EMAIL", pathToLogin);
 		String phone = ReadDataFromCSV("EMAIL", pathToLogin);
