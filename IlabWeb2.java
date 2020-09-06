@@ -66,7 +66,7 @@ public class IlabWeb2 extends utilData {
 	}
 	
 	public void captureInf() {
-		String pathToLogin = "C:\\Users\\mlungisi.ntshingila\\eclipse-workspace\\VPC_BO\\Data\\Infodata.csv";
+		String pathToLogin = "C:\\Users\\mlungisi.ntshingila\\eclipse-workspace\\VPC_BO\\Data\\datafile.csv";
 		String name = ReadDataFromCSV("NAME", pathToLogin);
 		String email = ReadDataFromCSV("EMAIL", pathToLogin);
 		String phone = ReadDataFromCSV("EMAIL", pathToLogin);		
